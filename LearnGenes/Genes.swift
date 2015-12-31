@@ -9,5 +9,5 @@
 import Foundation
 
 struct gene{
-    
+    let name = "Gene"
 }
