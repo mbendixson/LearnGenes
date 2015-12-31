@@ -15,6 +15,7 @@
 		57FFF6491C35EBBA005E4E3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57FFF6471C35EBBA005E4E3F /* LaunchScreen.storyboard */; };
 		57FFF6541C35EBBA005E4E3F /* LearnGenesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF6531C35EBBA005E4E3F /* LearnGenesTests.swift */; };
 		57FFF65F1C35EBBA005E4E3F /* LearnGenesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF65E1C35EBBA005E4E3F /* LearnGenesUITests.swift */; };
+		57FFF66D1C35F0D5005E4E3F /* Genes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57FFF66C1C35F0D5005E4E3F /* Genes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		57FFF65A1C35EBBA005E4E3F /* LearnGenesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LearnGenesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		57FFF65E1C35EBBA005E4E3F /* LearnGenesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LearnGenesUITests.swift; sourceTree = "<group>"; };
 		57FFF6601C35EBBA005E4E3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57FFF66C1C35F0D5005E4E3F /* Genes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Genes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 			isa = PBXGroup;
 			children = (
 				57FFF63B1C35EBBA005E4E3F /* AppDelegate.swift */,
+				57FFF66C1C35F0D5005E4E3F /* Genes.swift */,
 				57FFF63D1C35EBBA005E4E3F /* ViewController.swift */,
 				57FFF63F1C35EBBA005E4E3F /* Main.storyboard */,
 				57FFF6451C35EBBA005E4E3F /* Assets.xcassets */,
@@ -259,6 +262,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57FFF66D1C35F0D5005E4E3F /* Genes.swift in Sources */,
 				57FFF63E1C35EBBA005E4E3F /* ViewController.swift in Sources */,
 				57FFF63C1C35EBBA005E4E3F /* AppDelegate.swift in Sources */,
 				57FFF6441C35EBBA005E4E3F /* LearnGenes.xcdatamodeld in Sources */,
